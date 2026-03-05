@@ -1,0 +1,7 @@
+services:
+  portfolio:
+    build: .
+    ports:
+      - "8081:8081"
+    restart: unless-stopped
+    mem_limit: 256m
