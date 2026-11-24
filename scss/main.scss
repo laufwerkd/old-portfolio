@@ -3,7 +3,7 @@ $dark: #0D0D0D;
 $primary: #F2E8C9;
 $secondary: #734E40;
 $main: #BF9788;
-$springolino: #FFFF8A;
+$hopsland: #FFFF8A;
 $theme-colors: (
     "light": $light,
     "dark": $dark,
@@ -12,7 +12,7 @@ $theme-colors: (
 );
 $custom-colors: (
     "main": $main,
-    "springolino": $springolino
+    "hopsland": $hopsland
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
